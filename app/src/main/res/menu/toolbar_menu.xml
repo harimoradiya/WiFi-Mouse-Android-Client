@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_status"
+        android:icon="@drawable/ic_status"
+        android:title="Status"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/menu_connect"
+        android:title="@string/connect"
+        app:showAsAction="ifRoom" />
+<!--    <item-->
+<!--        android:id="@+id/menu_apps"-->
+<!--        android:icon="@drawable/ic_apps"-->
+<!--        android:title="Apps"-->
+<!--        app:showAsAction="never" />-->
+<!--    <item-->
+<!--        android:id="@+id/menu_keyboard"-->
+<!--        android:icon="@drawable/ic_keyboard"-->
+<!--        android:title="Keyboard"-->
+<!--        app:showAsAction="always" />-->
+    <item
+        android:id="@+id/menu_settings"
+        android:icon="@drawable/ic_settings"
+        android:title="Settings"
+        app:showAsAction="ifRoom" />
+</menu>

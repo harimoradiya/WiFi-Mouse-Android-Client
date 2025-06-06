@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Server Connection Section -->
+    <PreferenceCategory
+        app:title="@string/server_connection_title"
+        app:iconSpaceReserved="false">
+
+        <androidx.preference.SwitchPreferenceCompat
+            android:key="encryption_enabled"
+            app:title="@string/encryption_title"
+            app:summary="@string/encryption_summary"
+            app:iconSpaceReserved="false" />
+    </PreferenceCategory>
+
+    <!-- Input Settings Section -->
+    <PreferenceCategory
+        app:title="@string/input_settings_title"
+        app:iconSpaceReserved="false">
+
+        <!-- SeekBarPreference instead of SliderPreference -->
+        <androidx.preference.SeekBarPreference
+            android:key="mouse_sensitivity"
+            app:title="@string/mouse_sensitivity_title"
+            android:max="100"
+            android:min="10"
+            app:showSeekBarValue="true"
+            app:iconSpaceReserved="false" />
+
+    </PreferenceCategory>
+
+
+</PreferenceScreen>

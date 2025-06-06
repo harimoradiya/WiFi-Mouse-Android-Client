@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav_graph"
+    app:startDestination="@id/mouseControlFragment">
+
+    <fragment
+        android:id="@+id/mouseControlFragment"
+        android:name="com.harimoradiya.wifimouseclientandroid.ui.frags.MouseControlFragment"
+        tools:layout="@layout/fragment_mouse"
+        android:label="Mouse Control">
+<!--        <argument-->
+<!--            -->
+<!--            android:name="com.harimoradiya.wifimouseclientandroid.ConnectionManager"-->
+<!--            app:argType=""-->
+<!--            app:nullable="true"/>-->
+    </fragment>
+
+    <fragment
+        android:id="@+id/keyboardFragment"
+        android:name="com.harimoradiya.wifimouseclientandroid.ui.frags.KeyboardFragment"
+        tools:layout="@layout/fragment_keyboard"
+        android:label="Keyboard Control">
+<!--        <argument-->
+<!--            android:name="connectionManager"-->
+<!--            app:argType="com.harimoradiya.wifimouseclientandroid.ConnectionManager"-->
+<!--            app:nullable="true"/>-->
+    </fragment>
+
+    <fragment
+        android:id="@+id/appLauncherFragment"
+        android:name="com.harimoradiya.wifimouseclientandroid.ui.frags.AppLauncherFragment"
+        tools:layout="@layout/fragment_app_launcher"
+        android:label="App Launcher"
+        >
+<!--        <argument-->
+<!--            android:name="connectionManager"-->
+<!--            app:argType="com.harimoradiya.wifimouseclientandroid.ConnectionManager"-->
+<!--            app:nullable="true"/>-->
+    </fragment>
+
+    <fragment
+        android:id="@+id/dataFragment"
+        android:name="com.harimoradiya.wifimouseclientandroid.ui.frags.DataFragment"
+        tools:layout="@layout/fragment_data"
+        android:label="File Transfer" />
+</navigation>

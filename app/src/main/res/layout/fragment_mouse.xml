@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="8dp">
+
+    <!-- Touchpad with a fixed height ratio -->
+    <com.harimoradiya.wifimouseclientandroid.views.TouchpadView
+        android:id="@+id/touchpadView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@drawable/touchpad_bg"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/buttonsContainer"
+        app:layout_constraintHeight_default="wrap"
+        app:layout_constraintDimensionRatio="H,3:3.8"/>
+
+    <!-- Button container directly below the touchpad -->
+    <LinearLayout
+        android:id="@+id/buttonsContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="8dp"
+        app:layout_constraintTop_toBottomOf="@id/touchpadView"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnLeftClick"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+                android:text="Left Click"/>
+
+            <Button
+                android:id="@+id/btnRightClick"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+                android:text="Right Click"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnTakeSS"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="Take Screenshot"
+            android:layout_marginTop="4dp"/>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">WiFi Mouse Client</string>
+    <string name="action_keyboard">Keyboard</string>
+    <string name="action_mouse">Mouse</string>
+    <string name="settings_title">Settings</string>
+
+    <string name="server_connection_title">Server Connection</string>
+    <string name="encryption_title">Enable Encryption</string>
+    <string name="encryption_summary">Use encrypted connection when available</string>
+
+    <string name="input_settings_title">Input Settings</string>
+    <string name="mouse_sensitivity_title">Mouse Sensitivity</string>
+    <string name="invert_scroll_title">Invert Scroll Direction</string>
+    <string name="invert_scroll_summary">Reverse the direction of scrolling</string>
+
+    <string name="appearance_title">Appearance</string>
+    <string name="theme_title">Theme</string>
+    <string name="connection_status_title">Show Connection Status</string>
+    <string name="connection_status_summary">Display connection status in notification area</string>
+
+    <string name="advanced_title">Advanced</string>
+    <string name="timeout_title">Connection Timeout (seconds)</string>
+    <string name="debug_title">Debug Logging</string>
+    <string name="debug_summary">Enable detailed logging for troubleshooting</string>
+    <string name="connect">Connect</string>
+
+
+</resources>
