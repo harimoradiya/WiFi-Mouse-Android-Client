@@ -1,7 +1,11 @@
 # WiFi Mouse Client
 
-⚠️ Important: This client application requires the WiFi Mouse Server to be installed and running on your computer. The server application is available for Windows, macOS, and Linux.
+This client application works in conjunction with the WiFi Mouse Server:
 
+- **Repository**: [WiFi Mouse Server](https://github.com/yourusername/wifi-mouse-server)
+- **Description**: Kotlin Multiplatform server application for Windows, macOS, and Linux
+- **Features**: Real-time device monitoring, server management, accessibility integration
+- **Required**: Must be installed and running on your computer to use this client
 Transform your Android device into a powerful wireless mouse and keyboard for your computer. Control your PC/Mac/Linux system remotely with intuitive touch gestures, keyboard input, and advanced features like app launching.
 
 ## 📱 Screenshots
