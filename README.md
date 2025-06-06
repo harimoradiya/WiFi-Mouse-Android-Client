@@ -2,6 +2,16 @@
 
 Transform your Android device into a powerful wireless mouse and keyboard for your computer. Control your PC/Mac/Linux system remotely with intuitive touch gestures, keyboard input, and advanced features like app launching.
 
+## 📱 Screenshots
+
+| Mouse Screen | Keyboard Screen | Apps Screen |
+|-------------|-------------|-------------|
+| ![Mouse Screen](https://github.com/user-attachments/assets/eef3e839-f367-41e9-bb9b-788fd3c7eb35) | ![Keyboard Screen](https://github.com/user-attachments/assets/02776831-d49a-4c6a-a382-bcc287cb6c70) | ![Apps Screen](https://github.com/user-attachments/assets/97207465-abf8-4276-b859-ce04a5c5dce5) |
+
+
+
+---
+
 ## 📱 Features
 
 ### Core Controls
@@ -215,14 +225,6 @@ Found a bug or have a feature request? Please use [GitHub Issues](../../issues).
 - Inspired by existing remote control solutions
 - Built with modern Android development practices
 
-## 📱 Screenshots
 
-| Mouse Screen | Keyboard Screen | Apps Screen |
-|-------------|-------------|-------------|
-| ![Mouse Screen](https://github.com/user-attachments/assets/eef3e839-f367-41e9-bb9b-788fd3c7eb35) | ![Keyboard Screen](https://github.com/user-attachments/assets/02776831-d49a-4c6a-a382-bcc287cb6c70) | ![Apps Screen](https://github.com/user-attachments/assets/97207465-abf8-4276-b859-ce04a5c5dce5) |
-
-
-
----
 
 **Download WiFi Mouse Client today and turn your Android device into the ultimate computer controller!**
