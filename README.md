@@ -2,7 +2,7 @@
 
 This client application works in conjunction with the WiFi Mouse Server:
 
-- **Repository**: [WiFi Mouse Server](https://github.com/yourusername/wifi-mouse-server)
+- **Repository**: [WiFi Mouse Server](https://github.com/harimoradiya/wifi-mouse-server)
 - **Description**: Kotlin Multiplatform server application for Windows, macOS, and Linux
 - **Features**: Real-time device monitoring, server management, accessibility integration
 - **Required**: Must be installed and running on your computer to use this client
